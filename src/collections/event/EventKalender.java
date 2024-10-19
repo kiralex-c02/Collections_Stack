@@ -8,6 +8,7 @@ public class EventKalender {
     private static ArrayList<Event> events = new ArrayList<>();
 
     // Add Method
+    // Warum eigentlich? Diese Methode ist wahnsinnig unnötig, mit dem Aufruf .add bei der Liste macht man genau das gleiche.
     public void add(Event event) {
         events.add(event);
     }
